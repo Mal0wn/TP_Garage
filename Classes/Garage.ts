@@ -10,6 +10,26 @@ export class Garage {
 	
 	}
 
+	retirerVehicule() {
+	
+	}
+
+	afficherGarage() {
+		console.log("Nom du garage: " + this.nom)
+	}
+
+	afficherMotos() {
+	
+	}
+
+	afficherVoiture() {
+	
+	}
+
+	afficherCamions() {
+	
+	}
+
 
 
 }
