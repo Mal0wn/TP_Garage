@@ -13,15 +13,15 @@ export abstract class Vehicule {
 
 
 	avancer() {
-	console.log("La voiture " + this.marque + " " + this.couleur + " avance")
+	console.log("Le vehicule " + this.marque + " " + this.couleur + " avance")
 	}
 
 	reculer() {
-	console.log("La voiture " + this.marque + " " + this.couleur + " recule")
+	console.log("Le vehicule " + this.marque + " " + this.couleur + " recule")
 	}
 
 	freiner() {
-	console.log("La voiture " + this.marque + " " + this.couleur + " freine")
+	console.log("Le vehicule " + this.marque + " " + this.couleur + " freine")
 	}
 
 	afficherLeVehicule() {
