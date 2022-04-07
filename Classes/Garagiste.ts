@@ -1,14 +1,12 @@
 import { Personne } from "./Personne";
+import { Garage } from "./Garage";
 
-export class Garagiste {
+export class Garagiste extends  Garage  {
 
-	
-
-	conduire(){
-	
-	}
 
 	presenterGarage() {
+
+	console.log(" je travaille au garage " + this.nom)
 	
 	}
 
@@ -16,6 +14,6 @@ export class Garagiste {
 	
 	}
 
-	
+
 
 }
