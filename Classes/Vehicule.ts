@@ -27,7 +27,7 @@ export abstract class Vehicule {
 	}
 
 	afficherLeVehicule() {
-	
+	 console.log("")
 	}
 
 

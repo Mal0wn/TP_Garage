@@ -1,24 +1,13 @@
 import { Vehicule } from "./Vehicule";
 
-export class Moto implements Vehicule {
-	marque: string;
-	couleur: string;
-	type: string;
+export class Moto extends Vehicule {
 	
-	avancer(): void {
-		
+	faireUnWheeling() {
+		console.log("Kéké Wheeling")
 	}
-	reculer(): void {
-		
-	}
-	freiner(): void {
-		
-	}
+
 	afficherLeVehicule(): void {
-		
+		console.log(` ${this.constructor.name} `)
 	}
-
-
-
 
 }
